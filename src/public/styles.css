@@ -22,6 +22,10 @@ a:hover {
 	font-weight: bold;
 }
 
+a:active {
+	color: darkorange;
+}
+
 ul {
 	list-style: none;
 }
