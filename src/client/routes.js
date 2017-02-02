@@ -15,7 +15,7 @@ const Routes = () => (
     <Contact path='/contact' />
     <AboutMe path='/about' />
     <Projects path='/projects' />
-    <NotFound type='404' default />
+    <NotFound default />
   </Router>
 )
 
