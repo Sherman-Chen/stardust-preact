@@ -1,0 +1,9 @@
+# dependencies
+node_modules
+
+# production
+/src/public/*build.js
+
+# misc
+.DS_Store
+npm-debug.log
