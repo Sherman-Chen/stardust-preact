@@ -1,15 +1,24 @@
 {
-  "name": "preact-demo",
-  "version": "1.0.0",
-  "description": "",
+  "name": "stardust-preact",
+  "version": "1.1.0",
+  "description": "Sherman Chen's personal portfolio and e-resume",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
     "start": "node src/server/server.js",
     "postinstall": "webpack"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Sherman",
+    "Chen",
+    "Sherman Chen",
+    "Software Engineer",
+    "JavaScript",
+    "Frontend",
+    "Backend",
+    "Full Stack"
+  ],
+  "author": "Sherman Chen",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.22.1",
