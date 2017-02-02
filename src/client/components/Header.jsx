@@ -1,7 +1,6 @@
 import { h, Component } from 'preact';
 
 const Header = () => {
-  const active = {'fontWeight':'bold', 'color':'darkorange'};
 
   return (
     <div className='header-flex-container'>

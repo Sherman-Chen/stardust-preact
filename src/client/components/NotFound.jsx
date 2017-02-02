@@ -2,7 +2,7 @@ import { h } from 'preact';
 import Header from './Header';
 import Footer from './Footer';
 
-const NotFound = ({type, url}) => {
+const NotFound = () => {
   return (
     <div className='flex-wrapper'>
     	<Header />
