@@ -92,6 +92,7 @@ h1 {
 
 .icon-link :hover {
 	color: dodgerblue;
+	cursor: pointer;
 }
 
 /* Header component */
