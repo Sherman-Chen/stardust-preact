@@ -146,6 +146,7 @@ h1 {
 /* Footer component */
 .footer {
 	font-style: italic;
+	font-size: 0.7rem;
 }
 
 /* About me component */
