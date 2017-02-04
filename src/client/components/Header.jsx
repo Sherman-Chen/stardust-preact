@@ -4,8 +4,8 @@ const Header = () => {
 
   return (
     <div className='header-flex-container'>
-      <div className='brand-aside'>
-        <h1><a href="/" className="brand"><strong>Sherman Chen</strong></a></h1>
+      <div>
+        <p><a href="/" className="brand"><strong>Sherman Chen</strong></a></p>
       </div>
       <div className='links-aside'>
         <a href="/resume" className="link link-nav">Resume</a>
