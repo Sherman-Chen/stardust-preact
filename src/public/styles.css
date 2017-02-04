@@ -182,6 +182,7 @@ h1 {
     	-webkit-box-pack: justify;
     	    -ms-flex-pack: justify;
     	        justify-content: space-between;
+    	padding-bottom: 0.5rem;
     }
 
     .links-aside {

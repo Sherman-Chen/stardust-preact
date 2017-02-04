@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 const NotFound = () => {
   return (
-    <div className='flex-wrapper'>
+    <main className='flex-wrapper'>
     	<Header />
       <section className='not-found'>
         <h1 style={{'color':'red'}}>404 - Page Not Found</h1>
@@ -12,7 +12,7 @@ const NotFound = () => {
         <p>Would you like to go back <a href="/" className="link">home</a> instead?</p>
       </section>
       <Footer />
-    </div>
+    </main>
   )
 };
 

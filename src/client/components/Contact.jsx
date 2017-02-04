@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 const Contact = () => {
   return (
-    <div className='flex-wrapper'>
+    <main className='flex-wrapper'>
       <Header />
       <section className='stretcher'>
         <h1>Let's get in touch!</h1>
@@ -17,7 +17,7 @@ const Contact = () => {
         <p>Check out my <a className='link' href='https://www.github.com/Sherman-Chen' target='_blank'>GitHub</a></p>
       </section>
       <Footer />
-    </div>
+    </main>
   )
 };
 

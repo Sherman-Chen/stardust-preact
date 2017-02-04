@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 const Projects = () => {
   return (
-    <div className="flex-wrapper">
+    <main className="flex-wrapper">
       <Header />
       <section className='blurb'>
       <h1>Here are some of my past Projects</h1>
@@ -59,7 +59,7 @@ const Projects = () => {
         <p>Thanks for checking out some of the stuff I've built! Here's a link to my <a href="https://www.github.com/Sherman-Chen" target='_blank' className="link">GitHub</a> for other projects I've done.</p>
       </section>
       <Footer />
-    </div>
+    </main>
   )
 };
 

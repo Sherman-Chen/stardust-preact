@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 const Resume = () => {
   return (
-    <div className='flex-wrapper'>
+    <main className='flex-wrapper'>
       <Header />
       <section className='blurb'>
         <h1>I'm actively job searching at the moment!</h1>
@@ -51,7 +51,7 @@ const Resume = () => {
         <p>Connect with me on <a className='link' href='https://www.linkedin.com/in/shermanchen410' target='_blank'>LinkedIn</a>!</p>
       </section>
       <Footer />
-    </div>
+    </main>
   )
 };
 

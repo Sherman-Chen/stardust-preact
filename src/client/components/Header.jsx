@@ -3,7 +3,7 @@ import { h, Component } from 'preact';
 const Header = () => {
 
   return (
-    <div className='header-flex-container'>
+    <header className='header-flex-container'>
       <div>
         <h1><a href="/" className="brand"><strong>Sherman Chen</strong></a></h1>
       </div>
@@ -13,7 +13,7 @@ const Header = () => {
         <p><a href="/about" className="link link-nav">About</a></p>
         <p><a href="/contact" className="link link-nav">Contact</a></p>
       </div>
-    </div>
+    </header>
   )
 };
 

@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 const AboutMe = () => {
   return (
-    <div className='flex-wrapper'>
+    <main className='flex-wrapper'>
       <Header />
       <section className="blurb">
         <h1>About Sherman</h1>
@@ -18,7 +18,7 @@ const AboutMe = () => {
         <p><i className="fa fa-coffee icon"></i>I'm always excited with meeting new people and learning from them, let's get in <a href="/contact" className="link">touch</a> sometime over coffee or a meal!</p>
       </section>
       <Footer />
-    </div>
+    </main>
   )
 }
 

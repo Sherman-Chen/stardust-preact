@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 const Home = () => {
   return (
-    <div className="flex-wrapper">
+    <main className="flex-wrapper">
       <Header />
       <article>
         <h1 className='hook'>Hi I'm Sherman. I build things, like this website for example.</h1>
@@ -31,7 +31,7 @@ const Home = () => {
         </section>
       </article>
       <Footer />
-    </div>
+    </main>
   )
 }
 
