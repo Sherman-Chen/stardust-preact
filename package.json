@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack -p",
     "start": "node src/server/server.js",
-    "postinstall": "webpack"
+    "postinstall": "webpack",
+    "dev": "npm run build && npm start"
   },
   "keywords": [
     "Sherman",
