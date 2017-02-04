@@ -125,8 +125,7 @@ h1 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row wrap;
-	margin-top: 1rem;
+	margin-top: 0.5rem;
 }
 
 .link-nav {
