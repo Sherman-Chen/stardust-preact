@@ -15,6 +15,7 @@ const Contact = () => {
         <h2>Some other stuff to look at</h2>
         <p>Check out my <a className='link' href="https://www.linkedin.com/in/shermanchen410" target="_blank">LinkedIn</a></p>
         <p>Check out my <a className='link' href='https://www.github.com/Sherman-Chen' target='_blank'>GitHub</a></p>
+        <p>Follow my stream of consciousness on <a className='link' href="https://twitter.com/_shermanchen" target='_blank'>Twitter</a></p>
       </section>
       <Footer />
     </main>
