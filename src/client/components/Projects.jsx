@@ -17,9 +17,9 @@ const Projects = () => {
         <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1486015920/codeoff_nhme5b.png" alt="CodeOff demo recording in progress!"/>
         <p>It's on <a href="https://github.com/oneoffcharacters/CodeOff" className="link" target='_blank'>GitHub</a>.</p>
         <p><b>What I built</b>: CodeOff is a web application that allows users to pair up and engage in competitve coding challenges. What set it apart from others was the ability to fire off "power ups" (think Mario-Kart) to distract your opponent and increase your chances of winning!</p>
-        <p><b>What I learned</b>: The big thing I learned over the development of CodeOff was the huge impact that properly planning out sprints make, technical debt is a real and scary thing! Technology-wise I learned a lot about React, WebSockets, Continous Integration, and Microservices.</p>
+        <p><b>What I learned</b>: The big thing I learned over the development of CodeOff was the huge impact that properly planning out sprints make, technical debt is a real and scary thing! Technology-wise I learned a lot about React, React-router, WebSockets, Continous Integration, and Microservices.</p>
         <p><b>What I am most proud of</b>: It was a challenge to get the websocket connections hookedup so that the players could interact with each other in different capacities, i.e. competitors had access to powerups, while viewers were restricted to viewing only. We also had to figure out how to get competitors code tested, and ultimately we accomplished this by exporting their submissions to a temp file, running Mocha CLI on it, and then importing the results to a containerized testing API which our main server then interacted with.</p>
-        <p><b>What I would do better next time</b>: I would have definitely taken more time to plan out the architecture of the application. Also I would have standardized the groups CSS's rules and styleguide more strictly</p>
+        <p><b>What I would do better next time</b>: I would have definitely taken more time to plan out the architecture of the application. Also I would have standardized the groups CSS's rules and styleguide more strictly.</p>
         <p><em>Built with: React, jQuery, Node, Express, MongoDB, Socket.io, Mocha CLI, Docker, & Webpack.</em></p>
       </section>
       <section className="blurb border-bottom">
@@ -29,7 +29,7 @@ const Projects = () => {
         <p>It's on <a href="https://github.com/todaysjam/legacy" className="link" target='_blank'>GitHub</a>.</p>
         <p className='align-text-right'><b>What I built</b>:Meal.Next is a mobile app that helps users find and plan out their week's meals.</p>
         <p><b>What I learned</b>: This was my first project where I mainly interacted with legacy code. It was an experience in itself learning how to read and decipher someone else's code, and then planning and adding new features to the already existing product.</p>
-        <p><b>What I am most proud of</b>:We were able to completely overhaul the UI and make it more friendly and easy to interact with. We also added several new features to better personalize the app for the user.</p>
+        <p><b>What I am most proud of</b>:We were able to completely overhaul the UI/UX and make it more friendly, easy, and intuitive to interact with. We also added several new features to better personalize the app for the user such as a calorie counter and shopping list. During this project I realized how much I enjoyed creating beautiful UI/UX (I designed the branding and color scheme!), and it definitely brought out a genuine enjoyment in me for Frontend Engineering.</p>
         <p><b>What I would do better next time</b>: The initial struggle I had with this project was not being used to another team's coding style and project layout/structure. I would definitey have taken more time to understand the way they architectured their application, instead of just diving into planning new features to add.</p>
         <p><em>Built with: React Native, Exponent, Native Base, Node, Express, & MongoDB.</em></p>
       </section>
@@ -51,7 +51,7 @@ const Projects = () => {
         <p>It's on <a href="https://github.com/Sherman-Chen/TennisBuddy" className="link" target='_blank'>GitHub</a>.</p>
         <p><b>What I built</b>: I had 24 hours to complete this project. I built pretty much built a login/logout feature that didn't really check for authentication, I was way over my head in wanting to develop an entire social network in only a day!</p>
         <p><b>What I learned</b>: Rapid prototyping is an essential in this industry. If there are scaffolding tools available (ahem Yeoman, Create-React-App, etc. cough cough) you should probably use them to save yourself time!</p>
-        <p><b>What I am most proud of</b>: I mean, I survived the 24 hours and got some much needed humbling and experience in software engineering.</p>
+        <p><b>What I am most proud of</b>: I mean, I survived the 24 hours and got some much needed humbling and experience in software engineering. That login panel is pretty nifty too.</p>
         <p className='align-text-right'><b>What I would do better next time</b>: Everything.</p>
         <p><em>Built with: Angular, Node, Express, & MongoDB.</em></p>
       </section>

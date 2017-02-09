@@ -11,7 +11,7 @@ const Resume = () => {
           <ul>
             <li><i className="fa fa-laptop icon"></i>I'm looking for work as a Software Engineer.</li>
             <li><i className="fa fa-sitemap icon"></i>I bring an expertise in JavaScript and Full Stack Web Development.</li>
-            <li><i className="fa fa-ra icon"></i>I'm a keen believer in teamwork, clear communication, and learning new things!</li>
+            <li><i className="fa fa-ra icon"></i>I'm a keen believer in teamwork, clear communication, and learning, and teaching with others!</li>
             <li><i className="fa fa-rocket icon"></i>I always bring an earnest, and humble attitude when it comes to building and engineering.</li>
             <li><i className="fa fa-info icon"></i>Let's get in <a href="/contact" className="link">touch</a> if I sound like someone you might want to work with!</li>
           </ul>
