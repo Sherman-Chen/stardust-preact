@@ -11,7 +11,7 @@ const Home = () => {
         <h1 className='hook'>Hi I'm Sherman. I build things, like this website for example.</h1>
         <section className='blurb'>
           <h3><i className="fa fa-users icon"></i>I'm a Frontend Guy.</h3>
-          <p>I love all things Frontend Engineering, writing awesome HTML, CSS, and JavaScript. I especially enjoy using React and am quite the fanboy for Vue.js. I translate designs into reality, am an active advocate for digital accessibility, and make sure things look responsive and delightful across different browsers.</p>
+          <p>I love all things Frontend Engineering, writing awesome HTML, CSS, and JavaScript. I especially enjoy using React and am quite the fanboy for Vue.js. I translate designs into reality, and make sure things look responsive and delightful across different browsers for all users.</p>
         </section>
         <section className='blurb'>
           <h3><i className="fa fa-server icon"></i>I'm a Backend Guy.</h3>
