@@ -47,7 +47,7 @@ const Resume = () => {
         </ul>
       </section>
       <section style={{'textAlign':'center'}}>
-        <p>If you've gotten this far here's a PDF of my more traditional looking <a className='link' href='https://docs.google.com/document/d/1W-xE3EflmMx3x4Kg9_Hm6VwOodGc4UMQ16xH9RBz3to/edit?usp=sharing' target='_blank'>Resume</a>.</p>
+        <p>If you've gotten this far here's a PDF of my more traditional looking <a className='link' href='https://docs.google.com/document/d/1iz-ixTQ6Nke_cwsPDskDhQhNfwShg_iCCgEuDbRt7p4/edit?usp=sharing' target='_blank'>Resume</a>.</p>
         <p>Connect with me on <a className='link' href='https://www.linkedin.com/in/shermanchen410' target='_blank'>LinkedIn</a>!</p>
       </section>
       <Footer />
