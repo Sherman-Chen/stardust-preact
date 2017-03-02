@@ -7,11 +7,11 @@ const Projects = () => {
     <main className="flex-wrapper">
       <Header />
       <section className='blurb'>
-      <h1>Here are some of my past Projects</h1>
+      <h1 tabindex="1">Here are some of my past Projects</h1>
       <p className='border-bottom'>I built these both to learn and practice modern Software Engineering and Development. Of course they were also fantastically fun to make!</p>
       </section>
       <section className="blurb border-bottom">
-        <h3><i className="fa fa-file-code-o icon"></i>CodeOff</h3>
+        <h3 tabindex="2"><i className="fa fa-file-code-o icon"></i>CodeOff</h3>
         <p>"Gamified Online Coding Platform"</p>
         <p><em>Demo Recording currently in progress</em></p>
         <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1486015920/codeoff_nhme5b.png" alt="CodeOff demo recording in progress!"/>
@@ -23,7 +23,7 @@ const Projects = () => {
         <p><em>Built with: React, jQuery, Node, Express, MongoDB, Socket.io, Mocha CLI, Docker, & Webpack.</em></p>
       </section>
       <section className="blurb border-bottom">
-        <h3><i className="fa fa-cutlery icon"></i>Meal.next</h3>
+        <h3 tabindex="3"><i className="fa fa-cutlery icon"></i>Meal.next</h3>
         <p>"Mobile all-in-one recipe finder"</p>
         <iframe width="100%" height="100%" className='video' src="https://www.youtube.com/embed/tx7B8MA7wyU" frameBorder="0" allowFullScreen></iframe>
         <p>It's on <a href="https://github.com/todaysjam/legacy" className="link" target='_blank'>GitHub</a>.</p>
@@ -34,7 +34,7 @@ const Projects = () => {
         <p><em>Built with: React Native, Exponent, Native Base, Node, Express, & MongoDB.</em></p>
       </section>
       <section className="blurb border-bottom">
-        <h3><i className="fa fa-trophy icon"></i>Jamz</h3>
+        <h3 tabindex="4"><i className="fa fa-trophy icon"></i>Jamz</h3>
         <p>“Mobile accountability checker and activity tracker”</p>
         <iframe width="100%" height="100%" className='video' src="https://www.youtube.com/embed/SgTgcXYEDLY" frameBorder="0" allowFullScreen></iframe>
         <p>It's on <a href="https://github.com/todaysjam/todaysjam" className="link" target='_blank'>GitHub</a>.</p>
@@ -45,7 +45,7 @@ const Projects = () => {
         <p><em>Built with: React Native, Exponent, Node, Express, & MongoDB.</em></p>
       </section>
       <section className="blurb border-bottom">
-        <h3><i className="fa fa-male icon"></i>Tennis Buddy</h3>
+        <h3 tabindex="5"><i className="fa fa-male icon"></i>Tennis Buddy</h3>
         <p>"Social Network for Tennis Ethusiasts"</p>
         <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1486015937/tennisbuddy_ea4sik.png" alt="Tennis Buddy the easiest way to play tennis with a buddy!"/>
         <p>It's on <a href="https://github.com/Sherman-Chen/TennisBuddy" className="link" target='_blank'>GitHub</a>.</p>
@@ -56,7 +56,7 @@ const Projects = () => {
         <p><em>Built with: Angular, Node, Express, & MongoDB.</em></p>
       </section>
       <section className="blurb">
-        <p>Thanks for checking out some of the stuff I've built! Here's a link to my <a href="https://www.github.com/Sherman-Chen" target='_blank' className="link">GitHub</a> for other projects I've done.</p>
+        <p tabindex="6">Thanks for checking out some of the stuff I've built! Here's a link to my <a href="https://www.github.com/Sherman-Chen" target='_blank' className="link">GitHub</a> for other projects I've done.</p>
       </section>
       <Footer />
     </main>
