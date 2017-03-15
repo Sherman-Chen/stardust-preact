@@ -11,19 +11,29 @@ const Projects = () => {
       <p className='border-bottom'>I built these both to learn and practice modern Software Engineering and Development. Of course they were also fantastically fun to make!</p>
       </section>
       <section className="blurb border-bottom">
-        <h3 tabindex="2"><i className="fa fa-file-code-o icon"></i>CodeOff</h3>
+        <h3 tabindex="2"><i className="fa fa-universal-access icon" aria-hidden="true"></i>Raging Octopus</h3>
+        <p>"Accessibility-driven OpenTable Integration"</p>
+        <iframe width="100%" height="100%" className='video' src="https://www.youtube.com/embed/B-QZrLoA2aQ?t=50m44s" frameBorder="0" allowFullScreen></iframe>
+        <p><em>(starts at 50:44)</em></p>
+        <p className='align-text-right'><b>What I built</b>: Raging Octopus was an accessibility-driven integration built on top of the OpenTable API, it allows impaired users (i.e. blindness, physical, etc) users to interact with and use OpenTable through voice commands.</p>
+        <p><b>What I learned</b>: We built this project because we care about equal web accessibility for all users, I learned a lot about how to create a product for all different kinds of users, and how to utilize alternative web browsing methods, i.e. voice commands.</p>
+        <p><b>What I am most proud of</b>: It was great that we placed, but personally, I was really proud of our idea and the motivation for building the application. We are all a11y <i className="fa fa-heart" style={{color: "red"}}></i>.</p>
+        <p><em>Built with: React, jQuery, Node, Express, AWS, Serverless, & OpenTable API</em></p>
+      </section>
+      <section className="blurb border-bottom">
+        <h3 tabindex="3"><i className="fa fa-file-code-o icon" aria-hidden="true"></i>CodeOff</h3>
         <p>"Gamified Online Coding Platform"</p>
         <p><em>Demo Recording currently in progress</em></p>
         <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1486015920/codeoff_nhme5b.png" alt="CodeOff demo recording in progress!"/>
         <p>It's on <a href="https://github.com/oneoffcharacters/CodeOff" className="link" target='_blank'>GitHub</a>.</p>
-        <p tabindex="3"><b>What I built</b>: CodeOff is a web application that allows users to pair up and engage in competitve coding challenges. What set it apart from others was the ability to fire off "power ups" (think Mario-Kart) to distract your opponent and increase your chances of winning!</p>
+        <p tabindex="4"><b>What I built</b>: CodeOff is a web application that allows users to pair up and engage in competitve coding challenges. What set it apart from others was the ability to fire off "power ups" (think Mario-Kart) to distract your opponent and increase your chances of winning!</p>
         <p><b>What I learned</b>: The big thing I learned over the development of CodeOff was the huge impact that properly planning out sprints make, technical debt is a real and scary thing! Technology-wise I learned a lot about React, React-router, WebSockets, Continous Integration, and Microservices.</p>
         <p><b>What I am most proud of</b>: It was a challenge to get the websocket connections hookedup so that the players could interact with each other in different capacities, i.e. competitors had access to powerups, while viewers were restricted to viewing only. We also had to figure out how to get competitors code tested, and ultimately we accomplished this by exporting their submissions to a temp file, running Mocha CLI on it, and then importing the results to a containerized testing API which our main server then interacted with.</p>
         <p><b>What I would do better next time</b>: I would have definitely taken more time to plan out the architecture of the application. Also I would have standardized the groups CSS's rules and styleguide more strictly.</p>
         <p><em>Built with: React, jQuery, Node, Express, MongoDB, Socket.io, Mocha CLI, Docker, & Webpack.</em></p>
       </section>
       <section className="blurb border-bottom">
-        <h3 tabindex="4"><i className="fa fa-cutlery icon"></i>Meal.next</h3>
+        <h3 tabindex="5"><i className="fa fa-cutlery icon" aria-hidden="true"></i>Meal.next</h3>
         <p>"Mobile all-in-one recipe finder"</p>
         <iframe width="100%" height="100%" className='video' src="https://www.youtube.com/embed/tx7B8MA7wyU" frameBorder="0" allowFullScreen></iframe>
         <p>It's on <a href="https://github.com/todaysjam/legacy" className="link" target='_blank'>GitHub</a>.</p>
@@ -34,7 +44,7 @@ const Projects = () => {
         <p><em>Built with: React Native, Exponent, Native Base, Node, Express, & MongoDB.</em></p>
       </section>
       <section className="blurb border-bottom">
-        <h3 tabindex="6"><i className="fa fa-trophy icon"></i>Jamz</h3>
+        <h3 tabindex="6"><i className="fa fa-trophy icon" aria-hidden="true"></i>Jamz</h3>
         <p>“Mobile accountability checker and activity tracker”</p>
         <iframe width="100%" height="100%" className='video' src="https://www.youtube.com/embed/SgTgcXYEDLY" frameBorder="0" allowFullScreen></iframe>
         <p>It's on <a href="https://github.com/todaysjam/todaysjam" className="link" target='_blank'>GitHub</a>.</p>
@@ -45,18 +55,18 @@ const Projects = () => {
         <p><em>Built with: React Native, Exponent, Node, Express, & MongoDB.</em></p>
       </section>
       <section className="blurb border-bottom">
-        <h3 tabindex="8"><i className="fa fa-male icon"></i>Tennis Buddy</h3>
+        <h3 tabindex="8"><i className="fa fa-male icon" aria-hidden="true"></i>Tennis Buddy</h3>
         <p>"Social Network for Tennis Ethusiasts"</p>
         <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1486015937/tennisbuddy_ea4sik.png" alt="Tennis Buddy the easiest way to play tennis with a buddy!"/>
         <p>It's on <a href="https://github.com/Sherman-Chen/TennisBuddy" className="link" target='_blank'>GitHub</a>.</p>
-        <p tabindex="1"><b>What I built</b>: I had 24 hours to complete this project. I built pretty much built a login/logout feature that didn't really check for authentication, I was way over my head in wanting to develop an entire social network in only a day!</p>
-        <p><b>What I learned</b>: Rapid prototyping is an essential in this industry. If there are scaffolding tools available (ahem Yeoman, Create-React-App, etc. cough cough) you should probably use them to save yourself time!</p>
+        <p tabindex="9"><b>What I built</b>: I had 24 hours to complete this project. I pretty much built a login/logout feature and hashed users passwords, I was way over my head in wanting to develop an entire social network in only a day!</p>
+        <p><b>What I learned</b>: Rapid prototyping is an essential in this industry. If there are scaffolding tools available (ahem Yeoman, Create-React-App, etc.) you should probably use them to save yourself time!</p>
         <p><b>What I am most proud of</b>: I mean, I survived the 24 hours and got some much needed humbling and experience in software engineering. That login panel is pretty nifty too.</p>
         <p className='align-text-right'><b>What I would do better next time</b>: Everything.</p>
-        <p><em>Built with: Angular, Node, Express, & MongoDB.</em></p>
+        <p><em>Built with: Angular, Node, MaterializeCSS, Express, & MongoDB.</em></p>
       </section>
       <section className="blurb">
-        <p tabindex="9">Thanks for checking out some of the stuff I've built! Here's a link to my <a href="https://www.github.com/Sherman-Chen" target='_blank' className="link">GitHub</a> for other projects I've done.</p>
+        <p tabindex="10">Thanks for checking out some of the stuff I've built! Here's a link to my <a href="https://www.github.com/Sherman-Chen" target='_blank' className="link">GitHub</a> for other projects I've done.</p>
       </section>
       <Footer />
     </main>

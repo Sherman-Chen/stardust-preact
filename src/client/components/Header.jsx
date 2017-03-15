@@ -3,7 +3,7 @@ import { h, Component } from 'preact';
 const Header = () => {
 
   return (
-    <header className='header-flex-container'>
+    <header className='header-flex-container' role="navigation">
       <div>
         <h1><a href="/" className="brand"><strong>Sherman Chen</strong></a></h1>
       </div>
