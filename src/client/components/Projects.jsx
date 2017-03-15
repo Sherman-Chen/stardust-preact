@@ -15,7 +15,7 @@ const Projects = () => {
         <p>"Accessibility-driven OpenTable Integration"</p>
         <iframe width="100%" height="100%" className='video' src="https://www.youtube.com/embed/B-QZrLoA2aQ?t=50m44s" frameBorder="0" allowFullScreen></iframe>
         <p><em>(starts at 50:44)</em></p>
-        <p className='align-text-right'><b>What I built</b>: Raging Octopus was an accessibility-driven integration built on top of the OpenTable API, it allows impaired users (i.e. blindness, physical, etc) users to interact with and use OpenTable through voice commands.</p>
+        <p className='align-text-right'><b>What I built</b>: Raging Octopus was an accessibility-driven integration built on top of the OpenTable API, it allows impaired users (i.e. blindness, physical, etc) to interact with and use OpenTable through voice commands.</p>
         <p><b>What I learned</b>: We built this project because we care about equal web accessibility for all users, I learned a lot about how to create a product for all different kinds of users, and how to utilize alternative web browsing methods, i.e. voice commands.</p>
         <p><b>What I am most proud of</b>: It was great that we placed, but personally, I was really proud of our idea and the motivation for building the application. We are all a11y <i className="fa fa-heart" style={{color: "red"}}></i>.</p>
         <p><em>Built with: React, jQuery, Node, Express, AWS, Serverless, & OpenTable API</em></p>
@@ -30,7 +30,7 @@ const Projects = () => {
         <p><b>What I learned</b>: The big thing I learned over the development of CodeOff was the huge impact that properly planning out sprints make, technical debt is a real and scary thing! Technology-wise I learned a lot about React, React-router, WebSockets, Continous Integration, and Microservices.</p>
         <p><b>What I am most proud of</b>: It was a challenge to get the websocket connections hookedup so that the players could interact with each other in different capacities, i.e. competitors had access to powerups, while viewers were restricted to viewing only. We also had to figure out how to get competitors code tested, and ultimately we accomplished this by exporting their submissions to a temp file, running Mocha CLI on it, and then importing the results to a containerized testing API which our main server then interacted with.</p>
         <p><b>What I would do better next time</b>: I would have definitely taken more time to plan out the architecture of the application. Also I would have standardized the groups CSS's rules and styleguide more strictly.</p>
-        <p><em>Built with: React, jQuery, Node, Express, MongoDB, Socket.io, Mocha CLI, Docker, & Webpack.</em></p>
+        <p><em>Built with: React, jQuery, Node, Express, MongoDB, Socket.io, Mocha CLI, Docker, Digital Ocean, & Webpack.</em></p>
       </section>
       <section className="blurb border-bottom">
         <h3 tabindex="5"><i className="fa fa-cutlery icon" aria-hidden="true"></i>Meal.next</h3>
