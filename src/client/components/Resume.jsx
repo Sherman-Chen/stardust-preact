@@ -7,7 +7,7 @@ const Resume = () => {
     <main className='flex-wrapper'>
       <Header />
       <section className='blurb'>
-        <h1 tabindex="1">I'm actively job searching at the moment!</h1>
+        <h1 tabindex="1" style={{textAlign: 'center'}}>I'm actively job searching at the moment!</h1>
           <ul>
             <li><i className="fa fa-laptop icon" aria-hidden="true"></i>I'm looking for work as a Software Engineer.</li>
             <li><i className="fa fa-sitemap icon" aria-hidden="true"></i>I bring an expertise in JavaScript and Full Stack Web Development.</li>
