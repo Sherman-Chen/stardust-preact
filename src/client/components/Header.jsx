@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className='header-flex-container' role="navigation">
       <div>
-        <h1><a href="/" className="brand"><strong>Sherman Chen</strong></a></h1>
+        <h1><a href="/" className="brand" style={{textDecoration: "none"}}><strong>Sherman Chen</strong></a></h1>
       </div>
       <div className='links-aside'>
         <p><a href="/resume" className="link link-nav">Resume</a></p>

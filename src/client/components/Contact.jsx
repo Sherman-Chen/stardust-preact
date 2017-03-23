@@ -7,7 +7,7 @@ const Contact = () => {
     <main className='flex-wrapper'>
       <Header />
       <section className='stretcher'>
-        <h1 tabindex="1">Let's get in touch!</h1>
+        <h1 tabindex="1" style={{textAlign: "center"}}>Let's get in touch!</h1>
         <h3 tabindex="2"><i className="fa fa-envelope icon" aria-hidden="true"></i>Email</h3>
         <a className='link' href="mailto:shc410@gmail.com">shc410@gmail.com</a>
         <h3 tabindex="3"><i className="fa fa-phone icon" aria-hidden="true"></i>Phone</h3>
