@@ -20,9 +20,11 @@ figcaption {
 
 a:hover {
 	font-weight: bold;
+	text-decoration: underline;
 }
 
 a:active {
+	font-weight: bold;
 	color: darkorange;
 }
 
@@ -78,10 +80,6 @@ h1 {
 	font-size: 1rem;
 	color: dodgerblue;
 	cursor: pointer;
-}
-
-.link :hover {
-	font-weight: bold;
 }
 
 .icon {
