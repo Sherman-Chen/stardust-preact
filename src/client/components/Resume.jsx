@@ -36,7 +36,7 @@ const Resume = () => {
           <li tabindex="8"><i className="fa fa-terminal icon" aria-hidden="true"></i><b>Build</b>: Webpack and NPM scripts are cool, have also used Grunt, Gulp, and Bower.</li>
           <li tabindex="9"><i className="fa fa-globe icon" aria-hidden="true"></i><b>Deployment</b>: I'm not the most skilled at DevOps, but I'm constantly improving. This site is actively deployed via Heroku, and previous applications were deployed using Heroku, AWS, and Digital Ocean. Docker is pretty neat, containerize everything! I do my best to write scripts in Bash, and Ruby.</li>
           <li tabindex="10"><i className="fa fa-code icon" aria-hidden="true"></i><b>Languages</b>: JavaScript, HTML, CSS, Python, some Ruby, and some Java. I can speak English, and Chinese and am always looking to pick up new languages programming and conversational!</li>
-          <li tabindex="11"><i className="fa fa-asterisk icon" aria-hidden="true"></i><b>Others</b>: I also have experience with design tools like Sketch and PhotoShop, and write tests using Mocha, Chai, Jasmine, Karma, and so forth. Have used Continous Integration tools such as CircleCi and TravisCi.</li>
+          <li tabindex="11"><i className="fa fa-asterisk icon" aria-hidden="true"></i><b>Others</b>: I also have experience with design tools like Sketch and PhotoShop, and write tests using Mocha, Chai, Jasmine, Karma, and so forth. Have used Continous Integration tools such as CircleCI and TravisCI.</li>
         </ul>
       </section>
       <section className='blurb'>
