@@ -24,7 +24,7 @@ const Projects = () => {
         <h3 tabindex="3"><i className="fa fa-file-code-o icon" aria-hidden="true"></i>CodeOff</h3>
         <p>"Gamified Online Coding Platform"</p>
         <p><em>Demo Recording currently in progress</em></p>
-        <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1486015920/codeoff_nhme5b.png" alt="CodeOff demo recording in progress!"/>
+        <img src="http://res.cloudinary.com/meetshermanchen-com/image/upload/v1492032167/CodeOffUI_ezxiqx.jpg" alt="CodeOff demo recording in progress!"/>
         <p>It's on <a href="https://github.com/oneoffcharacters/CodeOff" className="link" target='_blank'>GitHub</a>.</p>
         <p tabindex="4"><b>What I built</b>: CodeOff is a web application that allows users to pair up and engage in competitve coding challenges. What set it apart from others was the ability to fire off "power ups" (think Mario-Kart) to distract your opponent and increase your chances of winning!</p>
         <p><b>What I learned</b>: The big thing I learned over the development of CodeOff was the huge impact that properly planning out sprints make, technical debt is a real and scary thing! Technology-wise I learned a lot about React, React-router, WebSockets, Continous Integration, and Microservices.</p>
