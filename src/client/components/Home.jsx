@@ -15,7 +15,7 @@ const Home = () => {
         </section>
         <section className='blurb'>
           <h3 tabindex="3"><i className="fa fa-server icon"></i>I'm a Backend Guy.</h3>
-          <p>I enjoy the server side as well! I write Node with Express, do Websocket stuff, and dabble in Python & Django for web development and APIs. I also muster the courage to design database schemas on occasion.</p>
+          <p>I enjoy the server side as well! I write Node with Express, do Websocket stuff, and dabble in Python & Django for web development and APIs. I muster the courage to write database schemas on occasion.</p>
         </section>
         <section className='blurb'>
           <h3 tabindex="4"><i className="fa fa-check-circle icon"></i>I'm a Testing Guy.</h3>
